@@ -1,0 +1,116 @@
+.header{
+    width: 99%;
+    height: 5vh;
+    background-color: white;
+    margin-bottom: 8px;
+    color: black;
+    padding: 2px;
+    border: 5px solid rgb(219, 216, 216);
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right{
+width: 20%;
+/* border: 2px solid; */
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: -apple-system-subheadline;
+}
+.right>div{
+    padding: 0 .5em;
+/* border: 1px solid gray; */
+border-radius: 10px;
+background-color: rgb(250, 250, 250);
+filter: drop-shadow(2px 4px 6px rgb(250, 250, 250));
+}
+.right>div:hover{
+    cursor: pointer;
+}
+.brandname>span{
+    color: rgb(168, 199, 189);
+font-size: 28px;
+}
+.brandname{
+  width: 40%;
+  /* border: 2px solid; */
+  display: flex;
+justify-content: center;
+align-items: center;
+font-family: -apple-system-subheadline;
+font-size: 18px;
+letter-spacing: 8px;
+
+}
+.left{
+  width: 20%;
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: -apple-system-subheadline;
+  gap: 1em;
+}
+.left>img{
+    height: 79%;
+    width: 15%;
+}
+.left>svg{
+    height: 20px;
+    width: 20px;
+    
+    
+}
+.left>svg:hover{
+    cursor: pointer;
+}
+.css-14j7zee{
+    border-radius: 14px !important;
+border: none !important;
+background-color: whitesmoke !important;
+margin-right: 1em !important;
+
+
+}
+.css-14j7zee:hover{
+    cursor: pointer;
+}
+.css-0{
+    width: 11% !important;
+}
+.css-1k756t9{
+    border: none !important;
+    height: 2.5em !important;
+    background-color: white;
+
+}
+@media screen and (max-width: 557px)  {
+    .brandname{
+        font-size: 11px;
+    }
+    .brandname>span{
+        font-size: 15px;
+    }
+    .right{
+        font-size: 11px;
+    }
+   
+    .left{
+        height: auto;
+        width: auto;
+    }
+}
+@media screen and (max-width: 375px)  {
+    .brandname{
+        font-size: 9px;
+    }
+    .brandname>span{
+        font-size: 11px;
+    }
+    .right{
+        font-size: 8px;
+    }
+}

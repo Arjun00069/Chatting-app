@@ -1,0 +1,36 @@
+.singlechat>footer>form>input{
+    width: 92%;
+height: 80%;
+/* height: auto; */
+margin: 0rem 0.5rem;
+background-color: #dedbdb;
+border-radius: 10px;
+border: none;
+/* padding-left: 10px; */
+text-indent: 10px;
+/* color:  red; */
+}
+/* .singlechat{
+    !important;
+} */
+.messages{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.singlechat>footer{
+    height: 100%;
+    /* border: 1px solid red !important; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+/* align-items: center; */
+}
+.singlechat>footer>form{
+    height: 97% !important;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+}
+

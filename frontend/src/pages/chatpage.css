@@ -1,0 +1,52 @@
+.chatpage{
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+
+
+.chatbox{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 91.9vh;
+  
+
+}
+.chatpage.disable {
+    backdrop-filter: blur(5px);
+    pointer-events: none;
+  
+  }
+  .chatbox.disable{
+    backdrop-filter: blur(5px);
+
+    pointer-events: none;
+  }
+  
+  .overlay {
+    /* Styles for the overlay, e.g., full-screen position and semi-transparent background */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  
+  @media screen and (max-width: 755px){
+     /* .chatbox{
+      grid-template-columns: 0 1fr;
+     } */
+     .showList{
+      grid-template-columns: 1fr 0;
+    }
+    .showchats{
+      grid-template-columns: 0 1fr;
+    }
+    .initialchat{
+      display: none;
+    }
+    
+  }

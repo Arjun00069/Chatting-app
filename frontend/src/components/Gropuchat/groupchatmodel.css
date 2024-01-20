@@ -1,0 +1,200 @@
+.profilemodel1{
+    position: absolute;
+    height: auto;
+    width: 30%;
+
+    top: 29%;
+    left: 32%;
+  background-color:white;
+
+  pointer-events: all!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: Big Caslon;
+ border-radius: 2px;
+ border-radius: 10px;
+}
+    
+     .profilemodel1>header{
+            display: flex;
+            flex-direction: row;
+            /* justify-content: center; */
+            gap: 4rem;
+            margin: 9px 0.5px;
+    }
+    .profilemodel1>header>svg:hover{
+        cursor: pointer;
+        color: red;
+    }
+    .profilemodel1>header>span{
+      
+font-weight: 500;
+font-size: 120%;
+    }
+    .profilemodel1>div>form{
+    display: flex;
+flex-direction: column;
+gap: 0.5rem;
+width: 80%;
+
+}
+.userselected{
+    /* margin: 0px 1px; */
+/* margin: 0px 1px; */
+width: 90% !important;
+/* background-color: rgb(240, 222, 222); */
+margin-left: 1rem !important;
+height: 2.5vh !important;
+display: flex !important;
+flex-direction: row !important;
+gap: 0.2rem !important;
+overflow-x: scroll;
+}
+.userselected::-webkit-scrollbar{
+    width: 0;
+    height: 0px; /* Adjust the width as needed */
+  }
+
+  .userselected::-webkit-scrollbar-thumb {
+    background-color: wheat;
+  }
+.userselected>span{
+    font-size: 11px !important;
+padding: 0.2rem !important;
+background-color: purple;
+color: white !important;
+border-radius: 5px !important;
+font-weight: 700 !important;
+width: 46px !important;
+}
+#usercontainer{
+    
+    max-height: 150px;
+    overflow-y: scroll;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+    /* For WebKit-based browsers (Chrome, Safari, etc.) */
+   
+    
+     
+}
+#usercontainer::-webkit-scrollbar{
+    width: 0; /* Adjust the width as needed */
+  }
+
+  #usercontainer::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+.profilemodel1>div>form>input{
+    height: 20px;
+    margin-left: 1rem;
+    border-radius: 5px;
+    /* box-shadow: none; */
+    border-style: none;
+    border: 1px solid rgb(235, 231, 231);
+}
+
+.usersearch{
+    width: auto;
+height: 42px;
+margin: 0.3rem 0.7em;
+padding-right: 0.9rem;
+
+border-radius: 10px;
+background-color: rgb(233, 233, 233);
+transition: transform 900ms;
+display: flex;
+flex-direction: row;
+justify-content: start;
+gap: 1em;
+}
+.usersearch>div{
+    margin-left: 0.9em;
+    height: 2rem;
+    width: 2rem;
+}
+.usersearch>div>img{
+    height: 2rem;
+    width: 2rem; 
+    border-radius: 40px;
+    margin-top: 0.3em;
+}
+.usersearch>section{
+display: flex;
+flex-direction: column;
+
+justify-content: space-around;
+}
+.usersearch:hover{
+    cursor: pointer;
+}
+#closeuser:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+#submitbtn{
+    width: 35%;
+height: 5vh;
+margin-bottom: 1rem;
+background-color: rgb(47, 155, 255);
+color: white;
+font-size: 0.9rem;
+}
+.profilemodel1>svg:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.profilemodel1>h1{
+    position: relative;
+    top: -16px;
+    margin: 0px;
+    padding: 0px;
+    left: 37%;
+}
+    .profilemodel1>img{
+        height: 50px;
+        width: 39px;
+        position: relative;
+left: 43%;
+border-radius: 13px;
+    }
+    .profilemodel1>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    gap: 0px;
+    }
+    #email{
+        margin: 1px !important;
+        color: gray;
+    }
+    #emailn{
+        margin: 1px !important;
+        margin-left: 1em !important;
+        color: gray;
+    }
+    @media screen and (max-width: 557px) {
+        .profilemodel1>h1{
+            font-size: 16px;
+        }
+        #email{
+            font-size: 10px;
+        }
+        #emailn{
+            font-size: 7px;
+        }
+        .profilemodel1>img{
+            height: 20px;
+        width: 15px;
+        }
+        
+    }
+

@@ -1,0 +1,32 @@
+.scrolablechat{
+    display: flex;
+    flex-direction: column;
+    /* height: 99%; */
+    /* max-height: 500px; */
+    /* align-items: flex-end; */
+   overflow-y: auto;
+   /* border: 1px solid; */
+   scrollbar-width: thin; /* For Firefox */
+   scrollbar-color: transparent transparent;
+}
+.scrolablechat::-webkit-scrollbar {
+    width: 0px; /* Adjust the width as needed for Webkit browsers */
+  }
+  .scrolablechat::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Set the color of the thumb */
+  }
+.scrolablechat>div>span{
+    width: fit-content;
+    padding: 5px 15px;
+max-width: 75%;
+height: auto;
+border-radius: 20px;
+margin-left: 1rem;
+margin-right: 1rem;
+
+}
+.scrolablechat>div{
+    display: flex;
+    flex-direction: row;
+   
+}

@@ -1,0 +1,90 @@
+
+.sidedrawer{
+    
+        height: 100vh;
+        /* border: 1px solid; */
+        width: auto;
+        background-color: white;
+        display: grid;
+grid-template-rows: 5% 9% 78%;
+z-index: 12;
+}
+.sidedrawer>span>h3{
+    margin: 0px !important;
+     padding-left: 13px !important;
+}
+.sidedrawer>span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sidedrawer>span>svg:hover{
+color: red;
+cursor: pointer;
+}
+
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+ 
+}
+.searchbar>input{
+    border-radius: 10px;
+    border: 2px solid rgb(246, 245, 245);
+    height: 45%;
+}
+.searchbar>button{
+    height: 40%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(233, 233, 233);
+    transition: tranform 500ms;
+}
+.searchbar>button:hover{
+    transform: scale(1.05); background-color: rgb(190, 190, 190);
+    cursor: pointer;
+    
+
+}
+.searchresult{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.searchresult>div{
+    width: auto;
+height: 42px;
+margin: 0.3rem 0.7em;
+padding-right: 0.9rem;
+
+border-radius: 10px;
+background-color: rgb(233, 233, 233);
+transition: transform 900ms;
+display: flex;
+flex-direction: row;
+justify-content: start;
+gap: 1em;
+}
+.searchresult>div>div{
+    margin-left: 0.9em;
+    height: 2rem;
+    width: 2rem;
+}
+.searchresult>div>div>img{
+    height: 2rem;
+    width: 2rem; 
+    border-radius: 40px;
+    margin-top: 0.3em;
+}
+.searchresult>div>section{
+display: flex;
+flex-direction: column;
+
+justify-content: space-around;
+}
+.searchresult>div:hover{
+    transform: scale(1.05);
+}

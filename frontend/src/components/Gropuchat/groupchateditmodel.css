@@ -1,0 +1,239 @@
+.profilemodel2{
+    position: absolute;
+    height: auto;
+    width: 30%;
+
+    top: 29%;
+    left: 32%;
+  background-color:white;
+
+  pointer-events: all!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: Big Caslon;
+ border-radius: 2px;
+ border-radius: 10px;
+ pointer-events: all!important;
+}
+    
+     .profilemodel2>header{
+            display: flex;
+            flex-direction: row;
+            /* justify-content: center; */
+            gap: 4rem;
+            margin: 9px 0.5px;
+    }
+    .profilemodel2>header>svg:hover{
+        cursor: pointer;
+        color: red;
+    }
+    .profilemodel2>header>span{
+      
+font-weight: 500;
+font-size: 120%;
+    }
+    .profilemodel2>div>form{
+    display: flex;
+flex-direction: column;
+gap: 0.5rem;
+width: 80%;
+
+}
+.userselected{
+    /* margin: 0px 1px; */
+/* margin: 0px 1px; */
+width: 90% !important;
+/* background-color: rgb(240, 222, 222); */
+margin-left: 1rem !important;
+height: 2.5vh !important;
+display: flex !important;
+flex-direction: row !important;
+gap: 0.2rem !important;
+overflow-x: scroll;
+}
+.userselected::-webkit-scrollbar{
+    width: 0;
+    height: 0px; /* Adjust the width as needed */
+  }
+
+  .userselected::-webkit-scrollbar-thumb {
+    background-color: wheat;
+  }
+.userselected>span{
+    font-size: 11px !important;
+padding: 0.2rem !important;
+background-color: purple;
+color: white !important;
+border-radius: 5px !important;
+font-weight: 700 !important;
+width: 46px !important;
+}
+#usercontainer1{
+    
+    max-height: 150px;
+    overflow-y: scroll;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+    /* For WebKit-based browsers (Chrome, Safari, etc.) */
+   
+    
+     
+}
+#usercontainer::-webkit-scrollbar{
+    width: 0; /* Adjust the width as needed */
+  }
+
+  #usercontainer::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+.profilemodel2>div>form>input{
+    height: 20px;
+    margin-left: 1rem;
+    border-radius: 5px;
+    /* box-shadow: none; */
+    border-style: none;
+    border: 1px solid rgb(235, 231, 231);
+}
+
+.usersearch1{
+    width: auto;
+height: 42px;
+margin: 0.3rem 0.7em;
+padding-right: 0.9rem;
+
+border-radius: 10px;
+background-color: rgb(233, 233, 233);
+transition: transform 900ms;
+display: flex;
+flex-direction: row;
+justify-content: start;
+gap: 1em;
+}
+.usersearch1>div{
+    margin-left: 0.9em;
+    height: 2rem;
+    width: 2rem;
+}
+.usersearch1>div>img{
+    height: 2rem;
+    width: 2rem; 
+    border-radius: 40px;
+    margin-top: 0.3em;
+}
+.usersearch1>section{
+display: flex;
+flex-direction: column;
+
+justify-content: space-around;
+}
+.usersearch1:hover{
+    cursor: pointer;
+}
+#closeuser:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+#submitbtn{
+    width: 35%;
+height: 5vh;
+margin-bottom: 1rem;
+background-color: rgb(47, 155, 255);
+color: white;
+font-size: 0.9rem;
+border: none;
+}
+#updatebtn{
+    width: 35%;
+height: 3vh;
+margin-bottom: 1rem;
+background-color: rgb(47, 155, 255);
+color: white;
+font-size: 0.9rem;
+border: none;
+    border: none;
+    border-radius: 4px;
+  font-size: 10px;
+width: 20%;
+cursor: pointer;
+background-color: rgb(90 198 177) 
+
+}
+
+.profilemodel2>svg:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.profilemodel2>h1{
+    position: relative;
+    top: -16px;
+    margin: 0px;
+    padding: 0px;
+    left: 37%;
+}
+    .profilemodel2>img{
+        height: 50px;
+        width: 39px;
+        position: relative;
+left: 43%;
+border-radius: 13px;
+    }
+    .profilemodel2>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    gap: 0px;
+    }
+    #email{
+        margin: 1px !important;
+        color: gray;
+    }
+    #emailn{
+        margin: 1px !important;
+        margin-left: 1em !important;
+        color: gray;
+    }
+   #disable{
+    filter: opacity(0.3);
+   }
+    .btncontainer{
+        display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin: 1rem 0rem;
+    }
+    #leavegroup{
+        height: 3vh;
+        margin-left: 1rem;
+        border-radius: 5px;
+        /* box-shadow: none; */
+        border-style: none;
+        background-color: red;
+        color: white;
+       
+        cursor: pointer;
+    }
+    @media screen and (max-width: 557px) {
+        .profilemodel2>h1{
+            font-size: 16px;
+        }
+        #email{
+            font-size: 10px;
+        }
+        #emailn{
+            font-size: 7px;
+        }
+        .profilemodel2>img{
+            height: 20px;
+        width: 15px;
+        }
+        
+    }
+
